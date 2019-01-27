@@ -5,6 +5,7 @@
       "name": "Lógica para Ciência da Computação",
       "categoria": "Ciências exatas",
       "valor": 120.90,
+      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
       "autor": "Souza, João Nunes",
       "forma_pagamento": "em 4x de R$ 30,22 sem juros no cartão"
     },
@@ -14,6 +15,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
+      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
       "autor": "",
       "forma_pagamento": ""
     },
@@ -23,6 +25,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
+      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
       "autor": "",
       "forma_pagamento": ""
     },
@@ -32,6 +35,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
+      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
       "autor": "",
       "forma_pagamento": ""
     }
