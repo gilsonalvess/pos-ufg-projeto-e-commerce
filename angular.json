@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "pos-ufg-projeto-e-commerce": {
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "dwm",
@@ -23,9 +23,18 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/admin-lte/bootstrap/css/bootstrap.css",
+              "./node_modules/admin-lte/dist/css/AdminLTE.css",
+              "./node_modules/admin-lte/dist/css/skins/skin-red.css",
+              "./node_modules/admin-lte/plugins/iCheck/flat/red.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/admin-lte/dist/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
