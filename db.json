@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": "0001",
+      "name": "Lógica para Ciência da Computação",
+      "categoria": "Ciências exatas",
+      "valor": 120.90,
+      "autor": "Souza, João Nunes",
+      "forma_pagamento": "em 4x de R$ 30,22 sem juros no cartão"
+    },
+
+    {
+      "id": "0002",
+      "name": "",
+      "categoria": "",
+      "valor": "",
+      "autor": "",
+      "forma_pagamento": ""
+    },
+
+    {
+      "id": "0003",
+      "name": "",
+      "categoria": "",
+      "valor": "",
+      "autor": "",
+      "forma_pagamento": ""
+    },
+
+    {
+      "id": "0004",
+      "name": "",
+      "categoria": "",
+      "valor": "",
+      "autor": "",
+      "forma_pagamento": ""
+    }
+  ]
+}
