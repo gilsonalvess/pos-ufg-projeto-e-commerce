@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, LOCALE_ID } from '@angular/core';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-import {RouterModule, PreloadAllModules} from '@angular/router';
+import { NgModule } from '@angular/core';
+import {RouterModule} from '@angular/router';
 
 import {ROUTES} from './app.routes';
 
@@ -10,9 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { CartComponent } from './cart/cart.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
-import { ProdutoComponent } from './catalago-produtos/produto/produto.component';
-import { CatalagoProdutosComponent } from './catalago-produtos/catalago-produtos.component';
-import { ProdutoDetailComponent } from './produto-detail/produto-detail.component';
+import { ProdutoComponent } from './catalago_produtos/produto/produto.component';
+import { CatalagoProdutosComponent } from './catalago_produtos/catalago-produtos.component';
 
 
 @NgModule({
@@ -23,15 +21,13 @@ import { ProdutoDetailComponent } from './produto-detail/produto-detail.componen
     HeaderComponent,
     AboutComponent,
     ProdutoComponent,
-    CatalagoProdutosComponent,
-    ProdutoDetailComponent
+    CatalagoProdutosComponent
   ],
   imports: [
-    HttpClientModule,
     BrowserModule,
-    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules}),
+    RouterModule.forRoot((ROUTES)),
   ],
-  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
