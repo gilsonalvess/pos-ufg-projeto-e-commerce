@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'dwm-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'dwm-app',
+  templateUrl: 'app.component.html',
 })
-export class AppComponent {
-  title = 'pos-ufg-projeto-e-commerce';
+export class AppComponent implements OnInit {
+  content = 'Bem-vindo a BookCode!'
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 }
