@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
+import {DragScrollComponent, DragScrollModule} from 'ngx-drag-scroll/lib';
 
 @Component({
   selector: 'dwm-home',
@@ -6,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild('nav', {read: DragScrollComponent}) ds: DragScrollComponent;
+
+  moveLeft() {
+    this.ds.moveLeft();
+  }
+
+  moveRight() {
+    this.ds.moveRight();
+  }
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

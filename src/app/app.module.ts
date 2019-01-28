@@ -3,6 +3,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule, PreloadAllModules} from '@angular/router';
+import {DragScrollModule} from 'ngx-drag-scroll/lib';
 
 import {ROUTES} from './app.routes';
 
@@ -14,6 +15,8 @@ import { AboutComponent } from './about/about.component';
 import { ProdutoComponent } from './catalago-produtos/produto/produto.component';
 import { CatalagoProdutosComponent } from './catalago-produtos/catalago-produtos.component';
 import { ProdutoDetailComponent } from './produto-detail/produto-detail.component';
+import { TemplateCarrosselComponent } from './template-carrossel/template-carrossel.component';
+
 
 
 @NgModule({
@@ -25,9 +28,11 @@ import { ProdutoDetailComponent } from './produto-detail/produto-detail.componen
     AboutComponent,
     ProdutoComponent,
     CatalagoProdutosComponent,
-    ProdutoDetailComponent
+    ProdutoDetailComponent,
+    TemplateCarrosselComponent
   ],
   imports: [
+    DragScrollModule,
     HttpClientModule,
     BrowserAnimationsModule,
     BrowserModule,

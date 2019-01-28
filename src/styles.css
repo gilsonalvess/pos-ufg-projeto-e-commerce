@@ -8,10 +8,13 @@ body {
   color: inherit;
 }
 
+
 /*
  * Component: Place Info Box
  * -------------------
  */
+
+
 .place-info-box {
   color: #555;
   display: block;

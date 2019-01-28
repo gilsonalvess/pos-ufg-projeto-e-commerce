@@ -11,6 +11,24 @@
 
     </div>
 
+    <a [routerLink]="['/catalago-produtos']">
+      <drag-scroll #nav>
+        <img drag-scroll-item
+             src="https://images-na.ssl-images-amazon.com/images/I/51%2BAQzaaJmL._SX348_BO1,204,203,200_.jpg"/>
+        <img drag-scroll-item
+             src="https://images-na.ssl-images-amazon.com/images/I/51nzJVmO-UL._SX378_BO1,204,203,200_.jpg"/>
+        <img drag-scroll-item
+             src="https://images-na.ssl-images-amazon.com/images/I/51zviZccsDL._SX351_BO1,204,203,200_.jpg"/>
+      </drag-scroll>
+    </a>
+      <section class="content">
+        <div class="text-center">
+          <button class="btn-primary btn" (click)="moveLeft()">Left</button>
+          <button class="btn-primary btn" (click)="moveRight()">Right</button>
+        </div>
+      </section>
+
+
   </section>
 
 </section>
