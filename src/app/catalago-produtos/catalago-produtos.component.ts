@@ -14,23 +14,23 @@ import 'rxjs-compat/add/observable/from';
   selector: 'dwm-catalago-produtos',
   templateUrl: './catalago-produtos.component.html',
   animations: [
-    trigger('toggleSearch', [
-      state('hidden', style({
-        opacity: 0,
-        'max-height': '0px'
-      })),
-      state('visible', style({
-        opacity: 1,
-        'max-height': '70px',
-        'margin-top': '20px'
-      })),
-      transition('* => *', animate('250ms 0s ease-in-out'))
-    ])
+    // trigger('toggleSearch', [
+    //   state('hidden', style({
+    //     opacity: 0,
+    //     'max-height': '0px'
+    //   })),
+    //   state('visible', style({
+    //     opacity: 1,
+    //     'max-height': '70px',
+    //     'margin-top': '20px'
+    //   })),
+    //   transition('* => *', animate('250ms 0s ease-in-out'))
+    // ])
   ]
 })
 export class CatalagoProdutosComponent implements OnInit {
 
-  catalogo_produtos: Produto[];
+  produtos: Produto[];
   searchBarState = 'hidden';
   searchForm: FormGroup;
   searchControl: FormControl;
@@ -53,10 +53,12 @@ export class CatalagoProdutosComponent implements OnInit {
         this.catalagoProdutosService
           .catalagoProdutos(searchTerm)
           .catch(error => Observable.from([])))
-      .subscribe(produtos => this.catalogo_produtos = produtos);
+      .subscribe(produtos => this.produtos = produtos);
 
     this.catalagoProdutosService.catalagoProdutos()
-      .subscribe(produtos => this.catalogo_produtos = produtos);
+      .subscribe(produtos => {
+        return this.produtos = produtos;
+      });
   }
 
   toggleSearch() {

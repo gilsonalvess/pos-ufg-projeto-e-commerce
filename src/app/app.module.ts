@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {HttpClientModule} from '@angular/common/http';
 import {RouterModule, PreloadAllModules} from '@angular/router';
 
 import {ROUTES} from './app.routes';
@@ -28,10 +29,11 @@ import { ProdutoDetailComponent } from './produto-detail/produto-detail.componen
   ],
   imports: [
     HttpClientModule,
+    BrowserAnimationsModule,
     BrowserModule,
-    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules}),
+    RouterModule.forRoot(ROUTES),
   ],
-  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

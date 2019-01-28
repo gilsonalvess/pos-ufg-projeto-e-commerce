@@ -6,7 +6,7 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
   selector: 'dwm-produto',
   templateUrl: './produto.component.html',
   animations: [
-    trigger('restaurantAppeared', [
+    trigger('produtoAppeared', [
       state('ready', style({opacity: 1})),
       transition('void => ready', [
         style({opacity: 0, transform: 'translate(-30px, -10px)'}),

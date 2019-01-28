@@ -22,10 +22,10 @@
 <section class="content">
 
   <div class="row">
-    <div *ngFor="let produto of catalogo_produtos" class="col-sm-6 col-xs-12">
+    <div *ngFor="let produto of produtos" class="col-sm-6 col-xs-12">
       <dwm-produto [produto]="produto"></dwm-produto>
     </div>
-    <div *ngIf="catalogo_produtos?.length === 0" class="col-xs-12">
+    <div *ngIf="produtos?.length === 0" class="col-xs-12">
       <p class="lead text-center">
         Não foram encontrados itens para a sua busca.
       </p>

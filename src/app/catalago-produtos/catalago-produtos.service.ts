@@ -15,15 +15,13 @@ export class CatalagoProdutosService {
   constructor(private http: HttpClient) {
   }
 
-  catalagoProdutos(search?: string) {
-    return this.http.get(`${BOOKCODE_API}/catalago-produtos`, {params: {q: search}})
-      .catch(ErrorHandler.handleError);
+  catalagoProdutos(search?: string): Observable<any> {
+    return this.http.get(`${BOOKCODE_API}/catalago-produtos`, {params: {q: search}});
   }
 
-  produtoById(id: string) {
-    return this.http.get(`${BOOKCODE_API}/catalago-produtos/${id}`)
-      .catch(ErrorHandler.handleError);
-  }
+  // produtoById(id: string): Observable<any> {
+  //   return this.http.get(`${BOOKCODE_API}/catalago-produtos/${id}`);
+  // }
 
   //
   // reviewsOfRestaurant(id: string): Observable<any> {
