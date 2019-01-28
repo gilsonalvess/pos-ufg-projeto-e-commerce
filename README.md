@@ -3,11 +3,17 @@ Trabalho final da disciplina de front-end avançado
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
+## Install dependencies
+
+Run `npm install`
+Run `npm install -g json-server`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+Run `json-server db.json` for a dev server data base. Navigate to `http://localhost:3000/`. 
 
-## Code scaffolding
+## Install dependencies
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
