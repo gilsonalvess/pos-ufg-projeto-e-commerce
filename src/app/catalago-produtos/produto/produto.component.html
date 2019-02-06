@@ -1,24 +1,15 @@
 
-<section class="content">
-
-  <div class="row">
-
-    <div class="card-group">
-
-      <div class="carousel-item col-md-2" [@produtoAppeared]="produtoState">
-        <div class="card">
-          <img class="card-img-top img-fluid" [src]="produto.imagePath" ] alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">{{produto.name}}</h4>
-            <p class="card-text">{{produto.valor}}</p>
-            <p class="card-text">{{produto.autor}}</p>
-            <p class="card-text">{{produto.forma_pagamento}}</p>
-          </div>
-        </div>
-        <a class="btn-lg">Comprar</a>
+<div class="card-deck">
+  <div [@produtoAppeared]="produtoState">
+    <div class="card">
+      <img class="card-img-top" [src]="produto.imagePath" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">{{produto.name}}</h4>
+        <p class="card-text">{{produto.autor}}</p>
+        <h4 class="card-text">{{produto.valor}}</h4>
+        <p class="card-text">{{produto.forma_pagamento}}</p>
       </div>
-
     </div>
-
+    <a [routerLink]="['/cart']" class="btn btn-primary">Adicionar ao carrinho</a>
   </div>
-</section>
+</div>

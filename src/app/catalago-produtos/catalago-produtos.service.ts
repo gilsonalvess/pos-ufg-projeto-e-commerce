@@ -6,8 +6,6 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import {BOOKCODE_API} from '../app.api';
-import {ErrorHandler} from '../app.error-handler';
-import {Produto} from './produto/produto.model';
 
 @Injectable()
 export class CatalagoProdutosService {
@@ -16,21 +14,11 @@ export class CatalagoProdutosService {
   }
 
   catalagoProdutos(search?: string): Observable<any> {
-    return this.http.get(`${BOOKCODE_API}/catalago-produtos`, {params: {q: search}});
+    return this.http.get(`${BOOKCODE_API}/produtos`);
   }
 
-  // produtoById(id: string): Observable<any> {
-  //   return this.http.get(`${BOOKCODE_API}/catalago-produtos/${id}`);
-  // }
+  produtoById(id: string): Observable<any> {
+    return this.http.get(`${BOOKCODE_API}/produtos/${id}`);
+  }
 
-  //
-  // reviewsOfRestaurant(id: string): Observable<any> {
-  //   return this.http.get(`${BOOKCODE_API}/catalago-produtos/${id}/reviews`)
-  //     .catch(ErrorHandler.handleError);
-  // }
-  //
-  // menuOfRestaurant(id: string): Observable<any> {
-  //   return this.http.get(`${BOOKCODE_API}/catalago-produtos/${id}/menu`)
-  //     .catch(ErrorHandler.handleError);
-  // }
 }

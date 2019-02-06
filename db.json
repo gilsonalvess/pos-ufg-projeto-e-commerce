@@ -5,7 +5,7 @@
       "name": "Lógica para Ciência da Computação",
       "categoria": "Ciências exatas",
       "valor": 120.90,
-      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
+      "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51%2BAQzaaJmL._SX348_BO1,204,203,200_.jpg",
       "autor": "Souza, João Nunes",
       "forma_pagamento": "em 4x de R$ 30,22 sem juros no cartão"
     },
@@ -15,7 +15,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
-      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
+      "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51nzJVmO-UL._SX378_BO1,204,203,200_.jpg",
       "autor": "",
       "forma_pagamento": ""
     },
@@ -25,7 +25,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
-      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
+      "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51zviZccsDL._SX351_BO1,204,203,200_.jpg",
       "autor": "",
       "forma_pagamento": ""
     },
@@ -35,7 +35,7 @@
       "name": "",
       "categoria": "",
       "valor": "",
-      "imagePath": "src/assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
+      "imagePath": "assets/img/produtos/logica_para_ciencia_da_comp.jpeg",
       "autor": "",
       "forma_pagamento": ""
     }
