@@ -13,7 +13,17 @@ body {
  * Component: Place Info Box
  * -------------------
  */
+.drag-scroll-item, .drag-scroll {
+  padding: 15px;
+}
 
+#card-item {
+  background: white;
+  width: 380px;
+  height: 715px;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .place-info-box {
   color: #555;
