@@ -17,6 +17,14 @@ body {
   padding: 15px;
 }
 
+.topright {
+  position: absolute;
+  padding: 80px;
+  top: 8px;
+  right: 15px;
+  font-size: 18px;
+}
+
 #card-item {
   background: white;
   width: 380px;
@@ -110,7 +118,7 @@ body {
   margin: 0;
 }
 
-/* Detail For restaurant */
+/* Detail For produtoDetail */
 
 .box-img-detail {
   width: 180px;

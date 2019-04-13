@@ -1,7 +1,10 @@
 export interface ProdutoItem {
-  id: string;
-  name: string;
-  description: string;
-  preco: number;
-  imagePath: string;
+  id: string
+  name: string
+  categoria: string
+  preco: number
+  autor: string
+  imagePath: string
+  forma_pagamento: string
+  resumo: string
 }

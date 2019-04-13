@@ -1,0 +1,10 @@
+<div class="col-md-9 col-xs-12">
+
+  <dwm-produto-item
+    *ngFor="let item of produtoItem | async"
+    [produtoItem]="item" (add)="cart.addItem($event)" ></dwm-produto-item>
+
+</div>
+<div class="col-md-3 col-xs-12">
+  <dwm-cart #cart></dwm-cart>
+</div>

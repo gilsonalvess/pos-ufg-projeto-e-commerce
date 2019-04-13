@@ -4,40 +4,44 @@
       "id": "0001",
       "name": "Lógica para Ciência da Computação",
       "categoria": "Ciências exatas",
-      "valor": 120.90,
+      "preco": 120.90,
       "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51%2BAQzaaJmL._SX348_BO1,204,203,200_.jpg",
       "autor": "Souza, João Nunes",
-      "forma_pagamento": "em 4x de R$ 30,22 sem juros no cartão"
+      "forma_pagamento": "em 4x de R$ 30,22 sem juros no cartão",
+      "resumo": "Lógica para Ciência da Computação apresenta, de forma concisa, os primeiro e principais fundamentos da Lógica Clássica necessários aos estudantes de Ciência da Computação e áreas afins como: Lógica para Concursos, Argumentação Lógica, Matemática, Engenharias, Filosofia e Direito. Para estudar seu conteúdo não é necessário nenhum pré-requisito, nem mesmo maturidade matemática. Porém, mesmo sendo uma obra introdutória, temos o cuidado com a apresentação matemática rigorosa e com a "
     },
 
     {
       "id": "0002",
       "name": "Introdução à Programação",
       "categoria": "Computação",
-      "valor": 134.80,
+      "preco": 134.80,
       "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51ljjwmnAhL._SX352_BO1,204,203,200_.jpg",
       "autor": "Carlos Assis",
-      "forma_pagamento": "Em até 4x R$ 33,70 sem juros"
+      "forma_pagamento": "Em até 4x R$ 33,70 sem juros",
+      "resumo": "Lógica para Ciência da Computação apresenta, de forma concisa, os primeiro e principais fundamentos da Lógica Clássica necessários aos estudantes de Ciência da Computação e áreas afins como: Lógica para Concursos, Argumentação Lógica, Matemática, Engenharias, Filosofia e Direito. Para estudar seu conteúdo não é necessário nenhum pré-requisito, nem mesmo maturidade matemática. Porém, mesmo sendo uma obra introdutória, temos o cuidado com a apresentação matemática rigorosa e com a "
     },
 
     {
       "id": "0003",
       "name": "Introdução à Programação com Python",
       "categoria": "Computação",
-      "valor": 167.98,
+      "preco": 167.98,
       "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51qoFdDmLqL._SX360_BO1,204,203,200_.jpg",
       "autor": "Nilo Ney Coutinho Menezes",
-      "forma_pagamento": "Em até 4x R$ 55,66 sem juros"
+      "forma_pagamento": "Em até 4x R$ 55,66 sem juros",
+      "resumo": "Lógica para Ciência da Computação apresenta, de forma concisa, os primeiro e principais fundamentos da Lógica Clássica necessários aos estudantes de Ciência da Computação e áreas afins como: Lógica para Concursos, Argumentação Lógica, Matemática, Engenharias, Filosofia e Direito. Para estudar seu conteúdo não é necessário nenhum pré-requisito, nem mesmo maturidade matemática. Porém, mesmo sendo uma obra introdutória, temos o cuidado com a apresentação matemática rigorosa e com a "
     },
 
     {
       "id": "0004",
       "name": "HTML e CSS projete e construa Websites",
       "categoria": "Computação",
-      "valor": 137.90,
+      "preco": 137.90,
       "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51BSaWA-TvL.jpg",
       "autor": " Jon Duckett ",
-      "forma_pagamento": "Em até 4x R$ 34,49 sem juros"
+      "forma_pagamento": "Em até 4x R$ 34,49 sem juros",
+      "resumo": "Lógica para Ciência da Computação apresenta, de forma concisa, os primeiro e principais fundamentos da Lógica Clássica necessários aos estudantes de Ciência da Computação e áreas afins como: Lógica para Concursos, Argumentação Lógica, Matemática, Engenharias, Filosofia e Direito. Para estudar seu conteúdo não é necessário nenhum pré-requisito, nem mesmo maturidade matemática. Porém, mesmo sendo uma obra introdutória, temos o cuidado com a apresentação matemática rigorosa e com a "
     }
   ]
 }

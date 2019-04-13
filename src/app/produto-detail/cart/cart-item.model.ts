@@ -1,10 +1,11 @@
-import {ProdutoItem} from '../produto-item/produto-item.model';
+
+import {Produto} from '../../catalago-produtos/produto/produto.model';
 
 export class CartItem {
-  constructor(public produtoItem: ProdutoItem,
+  constructor(public produto: Produto,
               public quantity: number = 1){}
 
   value(): number {
-    return this.produtoItem.preco * this.quantity;
+    return this.produto.preco * this.quantity;
   }
 }

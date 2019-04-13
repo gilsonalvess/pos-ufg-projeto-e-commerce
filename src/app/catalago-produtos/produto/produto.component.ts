@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Produto} from './produto.model';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 
@@ -20,11 +20,16 @@ export class ProdutoComponent implements OnInit {
   produtoState = 'ready';
 
   @Input() produto: Produto;
+  @Output() add = new EventEmitter();
 
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  emitAddEvent() {
+    this.add.emit(this.produto);
   }
 
 }
